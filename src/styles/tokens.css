@@ -1,0 +1,159 @@
+/* Fonts are loaded via relative ./fonts/ paths in index.html for GitHub Pages compatibility */
+
+/* ---------- Theme 1: Escuro (BrainChain dark slate) ---------- */
+:root,
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  --slate-950: #0a0d11;
+  --slate-900: #0d1014;
+  --slate-850: #13181e;
+  --slate-800: #192028;
+  --slate-750: #202832;
+  --slate-700: #28323e;
+  --line: #232c37;
+  --line-strong: #354150;
+
+  --chalk: #eef1f4;
+  --chalk-2: #d2d9e0;
+  --chalk-3: #9aa5b3;
+  --chalk-4: #7b8796;
+
+  --amber: #eab84b;
+  --amber-soft: #f4ce73;
+  --amber-deep: #c99628;
+  --on-amber: #11151a;
+  --amber-tint: rgba(234, 184, 75, 0.11);
+  --amber-border: rgba(234, 184, 75, 0.42);
+
+  --rose: #eb9d94;
+  --sage: #86c79c;
+  --sky: #84bae0;
+  --lilac: #b9a6de;
+  --sand: #dfc996;
+  --danger: #f57c6e;
+  --danger-deep: #361c1a;
+  --success: #86c79c;
+  --success-tint: rgba(134, 199, 156, 0.1);
+  --success-border: rgba(134, 199, 156, 0.34);
+
+  --topbar-bg: rgba(13, 16, 20, 0.94);
+  --backdrop-bg: rgba(6, 8, 11, 0.72);
+  --hover-wash: rgba(255, 255, 255, 0.03);
+  --google-bg: #eef1f4;
+  --google-ink: #12161b;
+  --google-border: #354150;
+
+  --font-display: 'Bricolage Grotesque', 'Trebuchet MS', sans-serif;
+  --font-ui: 'Public Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'Spline Sans Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  /* Crisp BrainChain geometry — minimal, architectural corners */
+  --r-sm: 2px;
+  --r-md: 4px;
+  --r-lg: 6px;
+  --r-xl: 8px;
+  --r-chip: 3px;
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.24);
+  --shadow-2: 0 8px 28px rgba(0, 0, 0, 0.4);
+
+  --rail: 248px;
+  --page: 1080px;
+  --nav-h: 64px;
+  --ease: cubic-bezier(0.22, 0.8, 0.22, 1);
+}
+
+/* ---------- Theme 2: Claro (BrainChain crisp daylight) ---------- */
+[data-theme='light'] {
+  color-scheme: light;
+
+  --slate-950: #eef1f5;
+  --slate-900: #f6f7f9;
+  --slate-850: #ffffff;
+  --slate-800: #f1f4f8;
+  --slate-750: #e7ecf2;
+  --slate-700: #dce3ec;
+  --line: #d6dde6;
+  --line-strong: #bac4d1;
+
+  --chalk: #121820;
+  --chalk-2: #242e3b;
+  --chalk-3: #4e5b6a;
+  --chalk-4: #667382;
+
+  --amber: #b47b09;
+  --amber-soft: #976506;
+  --amber-deep: #855704;
+  --on-amber: #ffffff;
+  --amber-tint: rgba(180, 123, 9, 0.1);
+  --amber-border: rgba(180, 123, 9, 0.38);
+
+  --rose: #b84a40;
+  --sage: #247247;
+  --sky: #1e6b9e;
+  --lilac: #654ca8;
+  --sand: #8c6b22;
+  --danger: #c6372c;
+  --danger-deep: #fdeceb;
+  --success: #247247;
+  --success-tint: rgba(36, 114, 71, 0.09);
+  --success-border: rgba(36, 114, 71, 0.32);
+
+  --topbar-bg: rgba(246, 247, 249, 0.95);
+  --backdrop-bg: rgba(15, 22, 32, 0.45);
+  --hover-wash: rgba(18, 24, 32, 0.035);
+  --google-bg: #ffffff;
+  --google-ink: #121820;
+  --google-border: #bac4d1;
+
+  --shadow-1: 0 1px 2px rgba(18, 24, 32, 0.06);
+  --shadow-2: 0 10px 30px rgba(18, 24, 32, 0.14);
+}
+
+/* ---------- Theme 3: Suave (Warm low-glare stone) ---------- */
+[data-theme='soft'] {
+  color-scheme: light;
+
+  --slate-950: #e3e0d8;
+  --slate-900: #eceae4;
+  --slate-850: #f6f4ef;
+  --slate-800: #e7e4dc;
+  --slate-750: #dedad0;
+  --slate-700: #d3cec2;
+  --line: #cec9be;
+  --line-strong: #b4afa3;
+
+  --chalk: #222528;
+  --chalk-2: #35393e;
+  --chalk-3: #585d63;
+  --chalk-4: #6f747a;
+
+  --amber: #9c6a12;
+  --amber-soft: #85580d;
+  --amber-deep: #724b09;
+  --on-amber: #fbf9f5;
+  --amber-tint: rgba(156, 106, 18, 0.11);
+  --amber-border: rgba(156, 106, 18, 0.36);
+
+  --rose: #a54e45;
+  --sage: #2e6d4b;
+  --sky: #29658a;
+  --lilac: #655296;
+  --sand: #836628;
+  --danger: #b93d32;
+  --danger-deep: #f5e3e1;
+  --success: #2e6d4b;
+  --success-tint: rgba(46, 109, 75, 0.1);
+  --success-border: rgba(46, 109, 75, 0.32);
+
+  --topbar-bg: rgba(236, 234, 228, 0.95);
+  --backdrop-bg: rgba(30, 32, 34, 0.48);
+  --hover-wash: rgba(34, 37, 40, 0.04);
+  --google-bg: #f6f4ef;
+  --google-ink: #222528;
+  --google-border: #b4afa3;
+
+  --shadow-1: 0 1px 2px rgba(34, 37, 40, 0.06);
+  --shadow-2: 0 10px 28px rgba(34, 37, 40, 0.13);
+}

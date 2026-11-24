@@ -1,0 +1,7 @@
+# Estado local do BrainChain neste projeto.
+# Identidade e contexto do projeto ficam versionaveis; o resto e volatil.
+*
+!.gitignore
+!workspace.json
+!context.md
+!projects.json

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "projects": [
+    {
+      "id": "bd2fdc75f2bf41efab14d3ddadc7ab9b",
+      "name": "App",
+      "description": "",
+      "favorite": false,
+      "color": "var(--accent)",
+      "position": 0
+    }
+  ]
+}
